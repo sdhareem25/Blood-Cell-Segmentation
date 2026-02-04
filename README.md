@@ -48,4 +48,31 @@ Blood-Cell-Segmentation/
   ```bash
      python src/blood_cell_watershed.py
 
+Ensure the image path inside the script is correctly set.
+
+Results
+
+The output displays the grayscale image, binary segmentation, distance transform, and final watershed-based blood cell boundaries. This approach improves separation compared to simple thresholding methods.
+
+Limitations
+
+Sensitive to image quality and illumination
+
+May struggle with heavily overlapping cells
+
+Not suitable for clinical deployment
+
+Future Work
+
+Blood cell counting
+
+Cell type differentiation (RBC, WBC, platelets)
+
+Comparison with deep learning segmentation models
+
+Author
+
+HAREEM
+Biomedical Engineering Undergraduate
+Interested in Biomedical Image Processing and Computer Vision
 
